@@ -1,0 +1,38 @@
+# This file contains metadata for your plugin. Beginning
+# with version 1.8 this is the preferred way to supply information about a
+# plugin. The current method of embedding metadata in __init__.py will
+# be supported until version 2.0
+
+# This file should be included when you package your plugin.
+
+# Mandatory items:
+
+
+[general]
+name=Live Statistics
+qgisMinimumVersion=2.0
+description=LiveStats allows to display simple statistics about vector data in small toolbars that provide real-time feedback.
+version=0.4
+author=Olivier Dalang
+email=olivier.dalang@gmail.com
+
+# end of mandatory metadata
+
+# Optional items:
+
+# Uncomment the following line and add your changelog entries:
+changelog=plugin adapted to QGIS 2.X (contributed by Richard Duivenvoorde), added Concat and ConcatUnique computers, formatting supports negative precision (rounding)
+
+# tags are comma separated with spaces allowed
+tags=statistics,live,selection,attribute,display
+
+homepage=https://github.com/olivierdalang/liveStats
+tracker=https://github.com/olivierdalang/liveStats/issues
+repository=https://github.com/olivierdalang/liveStats.git
+icon=icon.png
+# experimental flag
+experimental=True
+
+# deprecated flag (applies to the whole plugin, not just a single version
+deprecated=False
+
